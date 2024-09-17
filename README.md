@@ -1,5 +1,5 @@
 # Golang-algoritms
-Golang algoritms  
+
 **sortAlgoritm folder** contains:  
 
 1. **BubbleSort** - сортировка пузырьком  
