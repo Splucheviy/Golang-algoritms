@@ -1,4 +1,4 @@
-package rometointeger
+package easy 
 
 import "fmt"
 

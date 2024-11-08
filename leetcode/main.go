@@ -1,16 +1,18 @@
 package main
 
 import (
-	palindrome "leetcode/palindromeNumber"
-	twosum "leetcode/twoSumTask"
-	rmi "leetcode/romeToInteger"
+	lCP "leetcode/easy/longestCommonPrefix"
+	palindrome "leetcode/easy/palindromeNumber"
+	rmi "leetcode/easy/romeToInteger"
+	twosum "leetcode/easy/twoSumTask"
 )
 
 func main() {
-	// Two Sum https://leetcode.com/problems/two-sum/description/
 	twosum.TwoSumFirstCaseRun()
 	twosum.TwoSumSecondCaseRun()
 	twosum.TwoSumThirdCaseRun()
 	palindrome.IsPalindromeFirstCaseRunner()
 	rmi.RomeToIntRunner()
+	lCP.LongestCommonPrefixFirstCaseRunner()
+	lCP.LongestCommonPrefixSecondCaseRunner()
 }
